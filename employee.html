@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/fonts/fontello-dd3e09bc/css/aura-hrms.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+</head>
+
+<body>
+    <div id="header"></div> <!-- Header loads here -->
+
+    <!-- Header Section -->
+    <section class="banner">
+        <div class="container text-center">
+            <p class="banner-text">METICULOUSLY CRAFTED</p>
+            <h1 class="gradient-text">Centralized <br> Employee Database</h1>
+            <div class="cta-buttons mt-4">
+                <a href="book-demo.html" class="btn btn-primary mr-4">Book Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-img">
+        <div class="fade-in">
+            <div class="container">
+                <img src="assets/img/svg/Features/Header-2.png">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Feature Highlights Section -->
+    <section class="feature-highlights">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="fade-in">
+                        <p class="feature-head">ADD EMPLOYEE</p>
+                        <h2 class="feature-title">Bulk Upload with No Restrictions!</h2>
+                        <p class="feature-description">Effortlessly manage your workforce with our easy bulk upload
+                            feature! No more tedious manual data entry—just upload everything in one go and save time.
+                            Our user-friendly system makes employee onboarding smooth and error-free, so you can focus
+                            on what really matters.</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="fade-in">
+
+                        <img src="assets/img/svg/Features/CED-3.png" alt="HR Dashboard Screenshot" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assign Employee Feature -->
+    <section class="feature-highlights">
+        <div class="container">
+            <div class="row align-items-center flex-reverse">
+                <div class="col-md-5">
+                    <div class="fade-in">
+                        <p class="feature-head">ASSIGN EMPLOYEE</p>
+                        <h2 class="feature-title">Assign Employees Without Limits!</h2>
+                        <p class="feature-description">Quickly sort and assign employees to the right departments and
+                            roles with ease. Our smart system keeps everything organized, improving workflows and making
+                            your operations run more smoothly.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-7">
+                    <div class="fade-in">
+                        <img src="assets/img/svg/Features/CED.png" alt="HR Dashboard Screenshot" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Call to Action -->
+    <section class="call-to-action" id="call-to-action">
+        <div class="container">
+            <h1>Aura empowers you with <br> Effortless <span id="changing-text" class="gradient-text">
+                    Management.</span>
+            </h1>
+            <a href="book-demo.html" class="btn btn-primary mt-4">Book Demo</a>
+        </div>
+    </section>
+
+    
+
+    <div id="footer"></div> <!-- Footer section here -->
+
+    <script>
+        // Load Header
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+
+        // Load Footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

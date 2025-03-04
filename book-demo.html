@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/fonts/fontello-dd3e09bc/css/aura-hrms.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+</head>
+
+<body>
+    <div id="header"></div> <!-- Header section here -->
+
+    <section class="book-section">
+        <div class="container px-0 my-5">
+            <div class="book-card">
+                <div class="row align-items-center">
+                    <!-- Left Content -->
+                    <div class="col-md-5 fade-in">
+                        <h2 class="fw-bold">See <span class="text-primary">Aura</span> in Action</h2>
+                        <p class="demo-content">Book a Demo to see how simple HR operations can be. From sourcing and
+                            managing to onboarding
+                            and
+                            payments, Aura has you covered.</p>
+                        <ul class="list-unstyled">
+                            <li> <i class="approve-lineicon-"> </i> In-depth knowledge of how Aura works</li>
+                            <li> <i class="approve-lineicon-"> </i> How Aura makes a difference in Pricing</li>
+                            <li> <i class="approve-lineicon-"> </i> Implement Aura for your HR workflows & best
+                                practices</li>
+                        </ul>
+                        <!-- <p class="demo-content mt-3">The trusted partner of leading global businesses</p>
+                        <div class="d-flex gap-3">
+                            <img src="assets/img/svg/Logo-1.svg" alt="Logo 1" width="80">
+                            <img src="assets/img/svg/Logo-2.svg" alt="Logo 2" width="80">
+                            <img src="assets/img/svg/Logo-3.svg" alt="Logo 3" width="80">
+                        </div> -->
+                    </div>
+
+                    <!-- Right Form -->
+                    <div class="col-md-7 ">
+
+                        <iframe class="booking-iframe"
+                            src='https://outlook.office365.com/book/Meeting@atomedgesoft.com/' scrolling='yes'></iframe>
+                        <!-- <div class="demo-section fade-in">
+                            <div class="head">
+                                <h6 class="gradient-text text-primary fw-bold text-center">Book Demo</h6>
+                            </div>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6 px-3">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter your name">
+                                    </div>
+                                    <div class="col-md-6 px-3">
+                                        <label class="form-label">Business Email</label>
+                                        <input type="email" class="form-control" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" placeholder="Enter your phone number">
+                                </div>
+                                <p class="text-muted mt-2">
+                                    By submitting this form, you agree to the processing of personal
+                                    data according to our <a href="#" class="text-primary">Privacy
+                                        Policy</a>.
+                                </p>
+                                <div class="form-btn py-2 ">
+                                    <button type="submit" class="btn btn-primary mw-none w-100 py-2">Submit</button>
+                                </div>
+                            </form>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div> <!-- Footer section here -->
+
+    <script>
+        // Load Header
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+
+        // Load Footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
