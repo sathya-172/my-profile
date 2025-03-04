@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'aura-hrms';
+  src: url('../font/aura-hrms.eot?66756899');
+  src: url('../font/aura-hrms.eot?66756899#iefix') format('embedded-opentype'),
+       url('../font/aura-hrms.woff2?66756899') format('woff2'),
+       url('../font/aura-hrms.woff?66756899') format('woff'),
+       url('../font/aura-hrms.ttf?66756899') format('truetype'),
+       url('../font/aura-hrms.svg?66756899#aura-hrms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'aura-hrms';
+    src: url('../font/aura-hrms.svg?66756899#aura-hrms') format('svg');
+  }
+}
+*/
+[class$="icon-"]:before, [class*="icon- "]:before {
+  font-family: "aura-hrms";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.calendar-lineicon-:before { content: '\e800'; } /* '' */
+.group-1-line-1icon-:before { content: '\e801'; } /* '' */
+.mailicon-:before { content: '\e802'; } /* '' */
+.add-lineicon-:before { content: '\e803'; } /* '' */
+.employee-role-lineicon-:before { content: '\e805'; } /* '' */
+.workforce-structureicon-:before { content: '\e806'; } /* '' */
+.payroll-lineicon-:before { content: '\e80a'; } /* '' */
+.birthday-cake-fillicon-:before { content: '\e80b'; } /* '' */
+.check-in-lineicon-:before { content: '\e80e'; } /* '' */
+.check-out-lineicon-:before { content: '\e80f'; } /* '' */
+.search-lineicon-:before { content: '\e810'; } /* '' */
+.close-lineicon-:before { content: '\e812'; } /* '' */
+.location-lineicon-:before { content: '\e813'; } /* '' */
+.upload-lineicon-:before { content: '\e814'; } /* '' */
+.download-lineicon-:before { content: '\e815'; } /* '' */
+.alert-lineicon-:before { content: '\e816'; } /* '' */
+.help-lineicon-:before { content: '\e817'; } /* '' */
+.breadcrumb-arrow-lineicon-:before { content: '\e818'; } /* '' */
+.chip-close-fillicon-:before { content: '\e819'; } /* '' */
+.profile-setup-lineicon-:before { content: '\e81a'; } /* '' */
+.settings-1-lineicon-:before { content: '\e81b'; } /* '' */
+.settings-2-lineicon-:before { content: '\e81c'; } /* '' */
+.change-password-lineicon-:before { content: '\e81d'; } /* '' */
+.logout-lineicon-:before { content: '\e81e'; } /* '' */
+.clock-lineicon-:before { content: '\e81f'; } /* '' */
+.reset-lineicon-:before { content: '\e820'; } /* '' */
+.filter-lineicon-:before { content: '\e823'; } /* '' */
+.half-fillicon-:before { content: '\e825'; } /* '' */
+.full-fillicon-:before { content: '\e826'; } /* '' */
+.approve-lineicon-:before { content: '\e827'; } /* '' */
+.open-in-new-page-lineicon-:before { content: '\e828'; } /* '' */
+.reject-lineicon-:before { content: '\e829'; } /* '' */
+.reject-fillicon-:before { content: '\e82a'; } /* '' */
+.approve-fillicon-:before { content: '\e82b'; } /* '' */
+.leave-1-lineicon-:before { content: '\e82c'; } /* '' */
+.leave-2-lineicon-:before { content: '\e82e'; } /* '' */
+.leave-3-lineicon-:before { content: '\e82f'; } /* '' */
+.leave-4-lineicon-:before { content: '\e830'; } /* '' */
+.leave-5-lineicon-:before { content: '\e831'; } /* '' */
+.leave-6-lineicon-:before { content: '\e832'; } /* '' */
+.money-lineicon-:before { content: '\e834'; } /* '' */
+.encashable-lineicon-:before { content: '\e837'; } /* '' */
+.replicable-lineicon-:before { content: '\e838'; } /* '' */
+.carry-forwarding-lineicon-:before { content: '\e83a'; } /* '' */
+.group-2-lineicon-:before { content: '\e83c'; } /* '' */
+.building-lineicon-:before { content: '\e83d'; } /* '' */
+.arow-right-lineicon-:before { content: '\e83f'; } /* '' */
+.info-lineicon-:before { content: '\e840'; } /* '' */
+.calendar-clock-lineicon-:before { content: '\e841'; } /* '' */
+.group-3-lineicon-:before { content: '\e842'; } /* '' */
+.phone-lineicon-:before { content: '\e844'; } /* '' */
+.edit-lineicon-:before { content: '\e846'; } /* '' */
+.delete-lineicon-:before { content: '\e847'; } /* '' */
+.email-lineicon-:before { content: '\e84e'; } /* '' */
