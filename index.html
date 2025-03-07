@@ -4,419 +4,396 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aura</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://sathya-172.github.io/my-profile/assets/fonts/fontello-dd3e09bc/css/aura-hrms.css" rel="stylesheet">
-    <link href="https://sathya-172.github.io/my-profile/assets/css/main.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+    <title>Sathiyajothi - Frontend React Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div id="header"></div> <!-- Header loads here -->
+<body class="text-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mt-4">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sathiyajothi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mt-3">
+                    <li class="nav-item"><a class=" hover-underline-animation center" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class=" hover-underline-animation center" href="#about">About</a></li>
+                    <li class="nav-item"><a class=" hover-underline-animation center" href="#career">Career</a></li>
+                    <li class="nav-item"><a class=" hover-underline-animation center" href="#contact">Contact</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">EN</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="backgroundImage"></div>
-        <div class="container main-container">
-            <h1>Excellence in Workforce Ecosystem.</h1>
-            <a href="book-demo.html" class="btn btn-primary mt-4">Book Demo</a>
+    <section id="hero" class="hero">
+        <div class="hero-img">
+            <img src="assets/img/153.svg" alt="hero">
+        </div>
+        <div class="text-center hero-container pb-5">
+            <div class="sj-gradient-container">
+                <div class="sj-background">
+                    <div class="sj-gradient">
+                        Hi, I'm Sathya
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="display-4 fw-bold mt-4">Frontend Developer <span class="fw-light">crafting seamless digital
+                    experiences</span></h1>
+            <button class="btn btn-outline-light action-btn mt-5">Email me</button>
         </div>
     </section>
 
-    <!-- Trusted Partners Section -->
-    <!-- <section class="trusted-partners">
-        <div class="">
-            <h5 class="grad-text">Our Trusted Partners</h5>
-            <div class="logo-slider">
-                <div class="logo-track-wrapper">
-                    <div class="logo-track">
-                        <img src="assets/img/svg/Logo-1.svg" alt="Partner 1">
-                        <img src="assets/img/svg/Logo-2.svg" alt="Partner 2">
-                        <img src="assets/img/svg/Logo-3.svg" alt="Partner 3">
-                        <img src="assets/img/svg/Logo-4.svg" alt="Partner 4">
-                        <img src="assets/img/svg/Logo-5.svg" alt="Partner 5">
-                        <img src="assets/img/svg/Logo.svg" alt="Partner 6">
-                        <img src="assets/img/svg/Logo-1.svg" alt="Partner 1">
-                        <img src="assets/img/svg/Logo-2.svg" alt="Partner 2">
-                        <img src="assets/img/svg/Logo-3.svg" alt="Partner 3">
-                        <img src="assets/img/svg/Logo-4.svg" alt="Partner 4">
-                        <img src="assets/img/svg/Logo-5.svg" alt="Partner 5">
-                        <img src="assets/img/svg/Logo.svg" alt="Partner 6">
+    <!-- Project Showcase -->
+    <section id="portfolio" class="py-5">
+        <div class="container text-center">
+            <div class="sj-gradient-container">
+                <div class="sj-background">
+                    <div class="sj-gradient">
+                        Portfolio
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-5 mt-4 section-head"> <span class="text-muted"> My Latest </span> Projects</h2>
+            <div class="row g-4">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="project-card">
+                            <img src="assets/img/aura.png" alt="aura" class="project-image">
+                            <div class="project-logo">
+                                <img  style="width: 45px;" src="assets/img/aura-logo.svg" alt="aura-logo">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <h6 class="text-white text-center mt-2">Aura</h6>
+                            <h6 class="text-muted text-center mt-2 px-2">2025</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-card">
+                            <img src="assets/img//sar.png" alt="another-project" class="project-image">
+                            <div class="project-logo">
+                                <img style="width: 45px;" src="assets/img/sar-logo.png" alt="another-logo">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <h6 class="text-white text-center mt-2">SAR Logistics</h6>
+                            <h6 class="text-muted text-center mt-2 px-2">2024</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-card">
+                            <img src="assets/img/yourshopclub.png" alt="aura" class="project-image">
+                            <div class="project-logo">
+                                <img style="width: 60px;" src="assets/img/yourshopclub-logo.png" alt="aura-logo">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <h6 class="text-white text-center mt-2">Aura</h6>
+                            <h6 class="text-muted text-center mt-2 px-2">2025</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="project-card">
+                            <img src="assets/img/kuruvi.png" alt="another-project" class="project-image">
+                            <div class="project-logo">
+                                <img style="width: 60px;" src="assets/img/kuruvi-logo.png" alt="another-logo">
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <h6 class="text-white text-center mt-2">SAR Logistics</h6>
+                            <h6 class="text-muted text-center mt-2 px-2">2024</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="text-center py-5 container">
+        <div class="quote">
+            <p class="mb-0">Crafting beautiful, high-performing websites <span class="text-muted">that don’t just look
+                    great but also deliver
+                    real results.</span> No more one-sided wins <span class="text-muted">—let’s build experiences that
+                    engage users and drive success.</span></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 px-5">
+                    <img src="profile.jpg" alt="Sathya">
+                </div>
+                <div class="col-md-7 px-5">
+                    <div class="sj-gradient-container justify-content-start mb-4">
+                        <div class="sj-background">
+                            <div class="sj-gradient">
+                                About
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="about-head pb-3"><span class="text-muted">I'm a Front-End Developer with a
+                        </span>Design-Driven Approach</h2>
+                    <p class="about-content text-muted">Blending creativity and functionality to craft seamless,
+                        high-performance digital experiences.
+                        With a passion for user-centric design, scalability, and innovation, I transform complex ideas
+                        into intuitive and visually striking solutions. My goal is to create digital products that not
+                        only look great but also deliver exceptional user experiences. Let’s build something impactful
+                        together!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Specialties -->
+    <!-- <section class="py-5">
+        <div class="container">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-mobile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-mobile" type="button" role="tab">Mobile App Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-product-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-product" type="button" role="tab">Product Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web"
+                        type="button" role="tab">Web Design</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-mobile" role="tabpanel">
+                    <p>Specialized in Mobile App Design...</p>
+                </div>
+                <div class="tab-pane fade" id="pills-product" role="tabpanel">
+                    <p>Specialized in Product Design...</p>
+                </div>
+                <div class="tab-pane fade" id="pills-web" role="tabpanel">
+                    <p>Specialized in Web Design...</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Career Timeline -->
+    <section class="py-5 text-light" id="career">
+        <div class="container">
+            <div class="sj-gradient-container mb-4">
+                <div class="sj-background">
+                    <div class="sj-gradient">
+                        Career
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-5 mt-4 text-center section-head"> <span class="text-muted">This Is </span>My Career</h2>
+            <div class="timeline px-5">
+                <div class="timeline-item py-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Frontend Developer <span class="text-muted career-description">2022 - Present</span>
+                            </h4>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text-muted">At two dynamic companies, I played a key role in developing
+                                product-focused web applications, collaborating with design and backend teams to create
+                                seamless, scalable, and visually compelling interfaces. Focused on user experience,
+                                performance, and innovation, I contributed to building high-impact digital products that
+                                enhance efficiency and engagement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item py-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Testing Technician <span class="text-muted career-description"> 2019 - 2021</span>
+                            </h4>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text-muted">As an Elevator Testing Technician, I conducted performance and safety
+                                tests to ensure industry compliance. Working closely with installation teams, I
+                                optimized functionality by diagnosing and troubleshooting mechanical, electrical, and
+                                control systems. My role focused on fine-tuning operations, ensuring smooth performance,
+                                and upholding safety standards for reliable vertical transportation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills / Service Highlights -->
+    <section id="whyme" class="py-5">
+        <div class="container text-center">
+            <div class="sj-gradient-container mb-4">
+                <div class="sj-background">
+                    <div class="sj-gradient">
+                        Why me?
+                    </div>
+                </div>
+            </div>
+            <h2 class="mb-5 mt-4 pb-3 text-center section-head"> <span class="text-muted">I'll help your </span>project
+                shine
+            </h2>
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-4 col-sm-12">
+                    <div class="dev-card p-3">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/img/idea.png" alt="Innovative">
+                            <h4 class="card-title mb-3">Innovative Development</h4>
+                            <p class="text-muted">I build <strong>scalable, high-performance web applications</strong>,
+                                ensuring seamless user experiences with modern development practices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 col-sm-12">
+                    <div class="dev-card p-3">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/img/user.png" alt="Innovative">
+
+                            <h5 class="card-title mb-3">User-Centric Approach</h5>
+                            <p class="text-muted">Every project is crafted with a focus on <strong>usability,
+                                    accessibility, and performance</strong>, delivering intuitive and engaging digital
+                                products.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 col-sm-12">
+                    <div class="dev-card p-3">
+                        <div class="card-body">
+                            <img class="mb-4" src="assets/img/optimization.png" alt="Innovative">
+                            <h5 class="card-title mb-3">Optimized for Efficiency</h5>
+                            <p class="text-muted">From real-time dashboards to <strong>product-focused</strong> web
+                                apps, I <strong>optimize
+                                    code, enhance speed, and ensure seamless functionality and scalability</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <!-- <section class="py-5 text-light">
+        <div class="container text-center">
+            <h2>See What Others Say About Me</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card p-4 rounded bg-secondary">
+                            <p>"Sathiyajothi is a fantastic developer!"</p>
+                            <p class="text-muted">- Client Name</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card p-4 rounded bg-secondary">
+                            <p>"Great work and attention to detail."</p>
+                            <p class="text-muted">- Client Name</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- FAQ Section -->
+    <!-- <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item bg-secondary text-light">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne">
+                            What services do you offer?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            I offer a wide range of services including web development, mobile app design, and product
+                            design.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-secondary text-light">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">
+                            How can I contact you?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can contact me via email or book a call using the contact section below.
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section> -->
 
-
-    <!-- Feature Section -->
-    <section class="feature-section">
-        <div class="container mt-6">
-            <h5 class="grad-text">Why Aura?</h5>
-            <p class="feature-why-content">It empowers teams and individuals to focus on meaningful interactions,
-                personal growth and a positive work environment that
-                fosters connection and well-being.</p>
-            <div class="features-wrapper fade-in">
-                <div class="feature-track">
-                    <div class="feature mt-4">
-                        <div class="row">
-                            <div class="text-align-start col-5 mt-4">
-                                <h1>01</h1>
-                                <p class="feature-head">METICULOUSLY CRAFTED</p>
-                                <h6 class="feature-title">Comprehensive employee information</h6>
-                                <p class="feature-content">A centralized database that consolidates all key employee
-                                    data,
-                                    including personal information, job roles. Built for efficiency and easy access.
-                                </p>
-                                <button class="btn btn-primary mt-4">Read More</button>
-                            </div>
-                            <div class="col-7">
-                                <img src="assets/img/Photos/Employee.png" alt="Dashboard Screenshot">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="feature mt-4">
-                        <div class="row">
-                            <div class="text-align-start col-5 mt-4">
-                                <h1>02</h1>
-                                <p class="feature-head">EXPERTLY BUILD</p>
-                                <h6 class="feature-title">Employee Attendance Logger</h6>
-                                <p class="feature-content">This system is built to monitor and capture employee working
-                                    hours. By capturing precise attendance data, it supports efficient
-                                    workforce management and streamlines payroll processing.
-                                </p>
-                                <button class="btn btn-primary mt-4">Read More</button>
-                            </div>
-                            <div class="col-7">
-                                <img src="assets/img/Photos/Attendance logger.png" alt="Dashboard Screenshot">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="feature final-card mt-4">
-                        <div class="row">
-                            <div class="text-align-start col-5 mt-4">
-                                <h1>03</h1>
-                                <p class="feature-head">SYSTEMATICALLY CREATED</p>
-                                <h6 class="feature-title">Leave Governance System</h6>
-                                <p class="feature-content">It automates the process of leave requests, approvals
-                                    to streamline the entire leave process. This creates a transparent
-                                    experience for both employees and executives.
-                                </p>
-                                <button class="btn btn-primary mt-4">Read More</button>
-                            </div>
-                            <div class="col-7">
-                                <img src="assets/img/Photos/Leave system.png" alt="Dashboard Screenshot">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container text-center">
+            <h2>Let's Get in Touch</h2>
+            <a class="btn btn-outline-light action-btn mt-4">Book a Call</a>
+            <p class="mt-3 "><span class="text-muted">or email </span><a
+                    class="mailto-link hover-underline-animation center"
+                    href="mailto:sathyajothi@104626@gmail.com">sathyajothi104626@gmail.com</a></p>
         </div>
     </section>
 
-    <!-- Savings and Stats Section -->
-    <section class="savings-section" id="savings-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-7">
-                    <h2>Savings made annually</h2>
-                    <h1 id="counter">$ 0</h1>
-                </div>
-                <div class="col-5">
-                    <div class="statistics">
-                        <div class="statistics-data">
-                            <img class="statistics-img" src="assets/img/svg/Body-map.svg">
-                            <p class="statistics-content">5+ Countries</p>
-                        </div>
-                        <div class="statistics-data">
-                            <img class="statistics-img" src="assets/img/svg/Body-globe.svg">
-                            <p class="statistics-content">10+ Languages</p>
-                        </div>
-                        <div class="statistics-data">
-                            <img class="statistics-img" src="assets/img/svg/Body-user-group.svg">
-                            <p class="statistics-content">25000+ Users</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+    <!-- Footer -->
+    <footer class="py-4 text-light text-center pt-5 mt-5">
+        <div class="container d-flex justify-content-between">
+            <ul class="list-unstyled mb-0">
+                
+            </ul>
+            <ul class="list-unstyled mb-0">
+                <li class="d-inline-block me-3 hover-underline-animation center"><a href="#portfolio" class="text-muted">Portfolio</a></li>
+                <li class="d-inline-block me-3 hover-underline-animation center"><a href="#about" class="text-muted">About</a></li>
+                <li class="d-inline-block me-3 hover-underline-animation center"><a href="#career" class="text-muted">Career</a></li>
+                <li class="d-inline-block me-3 hover-underline-animation center"><a href="#contact" class="text-muted">Contact</a></li>
+                <li class="d-inline-block  hover-underline-animation center"><a href="#portfolio" class="text-muted">LinkedIn</a></li>
+            </ul>
         </div>
-    </section>
-
-    <!-- Human Resource Management Section -->
-    <section class="hrm-section" id="hrm-section">
-        <div class="container">
-            <h4>Simplify HR tasks and enhance productivity at your fingertips!</h4>
-            <p class="lead">Aura is a versatile, cloud-based Human Resource Management System that allows employees and
-                HR managers to access and
-                manage HR tasks from any device, regardless of the user's geographical location-with minimal effort.</p>
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="card fade-in">
-                        <div class="row align-items-center">
-                            <div class="col-6">
-                                <img class="card-img-top" src="assets/img/Photos/Easy Org Setup.png"
-                                    alt="Easy Organizational Setup">
-                            </div>
-                            <div class="col-6">
-                                <div class="card-body">
-                                    <h6 class="card-title">Easy Organizational Setup</h6>
-                                    <p class="card-text">The goal is to enable HR
-                                        managers or administrators to
-                                        configure the organization's
-                                        structure without requiring
-                                        extensive technical
-                                        knowledge, making the
-                                        process simple, efficient, and
-                                        accessible to all users.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="card fade-in">
-                        <img class="card-img-top img-2" src="assets/img/Photos/Understandable analytics.png"
-                            alt="Understandable Analytics">
-                        <div class="card-body">
-                            <h6 class="card-title">Understandable Analytics</h6>
-                            <p class="card-text">With our user-friendly dashboards and
-                                simple reports, tracking key metrics is easy
-                                Without any Expertise.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <h6 class="card-title">Hassle-free Navigation</h6>
-                            <p class="card-text">Ensures the professionals to quickly find and
-                                complete tasks with minimal clicks and
-                                complexity.</p>
-                        </div>
-                        <img class="card-img-top img-3" src="assets/img/Photos/Hassle-free Navigation.png"
-                            alt="Hassle-free Navigation">
-
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="card fade-in">
-                        <div class="row align-items-center">
-                            <div class="col-6">
-                                <div class="card-body">
-                                    <h6 class="card-title">Effortless Leave Management</h6>
-                                    <p class="card-text">Managing Leave has never been
-                                        easier. Employees can request
-                                        track, and manage leave in just a
-                                        few clicks. It also allows HR to
-                                        monitor, approve, and manage
-                                        leave efficiently.</p>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <img class="card-img-top img-4" src="assets/img/Photos/Effortless Leave Management.png"
-                                    alt="Easy Organizational Setup">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container d-flex justify-content-center align-items-center"
+            style="height: var(--dynamic-height, auto);">
+            <p class="text-fit m-0">SATHIYA JOTHI</p>
         </div>
-    </section>
+    </footer>
 
-    <!-- Client Testimonials Section -->
-    <section class="testimonials-section" id="testimonials-section">
-        <div class="container">
-            <h5 class="grad-text">Hear from Our Clients</h5>
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="message-tail"></div>
-                        <div class="card-body">
-                            <h5 class="card-title">Impressive!</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text Of the
-                                printing and typesetting industry. Lorem
-                                Ipsum has been the industry'S Standard
-                                dummy text ever since the 1500s, when an
-                                unknown printer took a galley of type and
-                                scrambled it to make a type specimen book.</p>
-                            <!-- <a href="#" class="card-link">Read More</a> -->
-                        </div>
-
-                    </div>
-                    <div class="mt-4 d-flex">
-                        <img src="assets/img/Photos/Contact icon 3d vector illustration.jpg" alt="Client 1"
-                            class="rounded-circle" width="50" height="50">
-                        <div class="profile-content">
-                            <p class="mt-2 mb-0 "><strong>Jane Doe</strong></p>
-                            <p class="mb-0">CEO, Example Corp</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <h5 class="card-title">Impressive!</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text Of the
-                                printing and typesetting industry. Lorem
-                                Ipsum has been the industry'S Standard
-                                dummy text ever since the 1500s, when an
-                                unknown printer took a galley of type and
-                                scrambled it to make a type specimen book.</p>
-                            <!-- <a href="#" class="card-link">Read More</a> -->
-                        </div>
-
-                    </div>
-                    <div class="mt-4 d-flex">
-                        <img src="assets/img/Photos/Contact icon 3d vector illustration.jpg" alt="Client 1"
-                            class="rounded-circle" width="50" height="50">
-                        <div class="profile-content">
-                            <p class="mt-2 mb-0 "><strong>Jane Doe</strong></p>
-                            <p class="mb-0">CEO, Example Corp</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <h5 class="card-title">Impressive!</h5>
-                            <p class="card-text">Lorem Ipsum is simply dummy text Of the
-                                printing and typesetting industry. Lorem
-                                Ipsum has been the industry'S Standard
-                                dummy text ever since the 1500s, when an
-                                unknown printer took a galley of type and
-                                scrambled it to make a type specimen book.</p>
-                            <!-- <a href="#" class="card-link">Read More</a> -->
-                        </div>
-
-                    </div>
-                    <div class="mt-4 d-flex">
-                        <img src="assets/img/Photos/Contact icon 3d vector illustration.jpg" alt="Client 1"
-                            class="rounded-circle" width="50" height="50">
-                        <div class="profile-content">
-                            <p class="mt-2 mb-0 "><strong>Jane Doe</strong></p>
-                            <p class="mb-0">CEO, Example Corp</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Key Differentiators Section -->
-    <section class="differentiators-section">
-        <div class="container">
-            <h5 class="grad-text mb-5">What makes us stand-out</h5>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/money-svgrepo-com 1.svg"></div>
-                            <h5 class="card-title">Pay as you use</h5>
-                            <p class="card-text">Flexible pricing that scales with
-                                your success, pay only for what
-                                you use!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/safe-and-stable-svgrepo-com.svg"></div>
-                            <h5 class="card-title">Secure Data Encryption</h5>
-                            <p class="card-text">We prioritize Data security with
-                                Encrypting technologies to keep
-                                your information protected.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/7x24h-svgrepo-com.svg"></div>
-                            <h5 class="card-title">Direct line to Experts</h5>
-                            <p class="card-text">Get the support you need
-                                without any delays. Expert
-                                assistance is just a call away.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/system-settings-svgrepo-com.svg"></div>
-                            <h5 class="card-title">Easy Setup, No Cost</h5>
-                            <p class="card-text">No technical expertise required.
-                                Best Of all, there are no COStS
-                                involved.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/intelligent-positioning-svgrepo-com.svg">
-                            </div>
-                            <h5 class="card-title">Seamless User-Journey</h5>
-                            <p class="card-text">Enjoy a seamless user journey
-                                from start to finish Everything is
-                                just a few clicks away.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card fade-in">
-                        <div class="card-body">
-                            <div class="icon mb-3"><img src="assets/img/svg/port-detection-svgrepo-com 1.svg"></div>
-                            <h5 class="card-title">Remote Access</h5>
-                            <p class="card-text">It supports hybrid model with
-                                offering flexibility, convenience
-                                in managing HR processes.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Call to Action -->
-    <section class="call-to-action" id="call-to-action">
-        <div class="container">
-            <h1>Aura empowers you with <br> Effortless <span id="changing-text" class="gradient-text">
-                    Management.</span>
-            </h1>
-            <a href="book-demo.html" class="btn btn-primary mt-4">Book Demo</a>
-        </div>
-    </section>
-
-
-    <div id="footer"></div> <!-- Footer section here -->
-
-    <script>
-        // Load Header
-        fetch('https://sathya-172.github.io/my-profile/header.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('header').innerHTML = data);
-
-        // Load Footer
-        fetch('https://sathya-172.github.io/my-profile/footer.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('footer').innerHTML = data);
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-
 
 </html>
